@@ -16,3 +16,19 @@ class goods(models.Model):
     price = models.CharField(max_length=100)
     goods_id = models.CharField(max_length=100)
     comment_num = models.CharField(max_length=100)
+
+
+class pad(models.Model):
+    id = models.BigIntegerField(primary_key=True)
+    goods_name = models.CharField(max_length=255)
+    price = models.CharField(max_length=100)
+    goods_id = models.CharField(max_length=100)
+    comment_num = models.CharField(max_length=100)
+
+
+class netbook(models.Model):
+    id = models.BigIntegerField(primary_key=True)
+    goods_name = models.CharField(max_length=255)
+    price = models.CharField(max_length=100)
+    goods_id = models.CharField(max_length=100)
+    comment_num = models.CharField(max_length=100)

@@ -23,5 +23,15 @@ urlpatterns = [
     path('login/',views.login),
     path('register/',views.register),
     path('main/',views.main),
-    # path('search/', views.search,name = 'search')
+    path('feature/', views.feature),
+    path('index/' ,views.index),
+    path('charts/',views.charts),
+    path('log/',views.log),
+    path('test/',views.test),
+    path('phone/',views.phone),
+    path('netbook/',views.netbook_m),
+    path('pad/',views.pad_m),
+    path('phone_search/',views.phonesearch),
+    path('netbook_search/',views.netbooksearch),
+    path('pad_search/',views.padsearch)
 ]
